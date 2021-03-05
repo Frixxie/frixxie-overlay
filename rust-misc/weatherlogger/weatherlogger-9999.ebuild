@@ -7,9 +7,9 @@ inherit git-r3 cargo
 
 CRATES=""
 
-DESCRIPTION="This is a sample skeleton ebuild file"
+DESCRIPTION="This is simple async weatherlogger"
 
-HOMEPAGE="https://foo.example.org/"
+HOMEPAGE="https://github.com/Frixxie/weatherlogger.git"
 
 EGIT_REPO_URI="https://github.com/Frixxie/weatherlogger.git"
 
@@ -41,5 +41,5 @@ src_compile() {
 }
 
 src_install() {
-	cargo_src_install 
+	cargo_src_install
 }
