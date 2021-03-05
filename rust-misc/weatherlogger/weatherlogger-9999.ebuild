@@ -41,5 +41,5 @@ src_compile() {
 }
 
 src_install() {
-	cargo_src_install --path /bin
+	cargo_src_install 
 }
