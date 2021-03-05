@@ -13,7 +13,7 @@ HOMEPAGE="https://github.com/Frixxie/weatherlogger.git"
 
 EGIT_REPO_URI="https://github.com/Frixxie/weatherlogger.git"
 
-LICENSE=""
+LICENSE="MIT"
 
 SLOT="0"
 
