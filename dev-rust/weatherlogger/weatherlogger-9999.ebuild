@@ -12,6 +12,7 @@ DESCRIPTION="This is simple async weatherlogger"
 HOMEPAGE="https://github.com/Frixxie/weatherlogger.git"
 
 EGIT_REPO_URI="https://github.com/Frixxie/weatherlogger.git"
+EGIT_BRANCH="master"
 
 LICENSE="MIT"
 
