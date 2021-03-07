@@ -26,7 +26,7 @@ IUSE=""
 
 #DEPEND="${RDEPEND}"
 
-BDEPEND="virtual/rust"
+#BDEPEND="virtual/rust"
 
 src_unpack() {
 	git-r3_src_unpack
