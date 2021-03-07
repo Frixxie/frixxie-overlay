@@ -22,11 +22,11 @@ KEYWORDS="~amd64"
 
 IUSE=""
 
-RDEPEND="dev-lang/rust"
+#RDEPEND=""
 
 #DEPEND="${RDEPEND}"
 
-#BDEPEND="virtual/pkgconfig"
+BDEPEND="virtual/rust"
 
 src_unpack() {
 	git-r3_src_unpack
