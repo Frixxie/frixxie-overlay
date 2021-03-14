@@ -7,7 +7,7 @@ inherit git-r3 cargo
 
 CRATES=""
 
-DESCRIPTION="This is simple async weatherlogger"
+DESCRIPTION="This is a simple async weatherlogger"
 
 HOMEPAGE="https://github.com/Frixxie/weatherlogger.git"
 
