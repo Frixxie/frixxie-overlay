@@ -4,12 +4,12 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3_{6,7,8} pypy3 )
+DISTUTILS_USE_SETUPTOOLS=no
 
 inherit git-r3 distutils-r1
 
 DESCRIPTION="Simple calendar util for University of Tromso's courses"
 
-# Homepage, not used by Portage directly but handy for developer reference
 HOMEPAGE="https://github.com/Frixxie/uit_calendar_util"
 
 EGIT_REPO_URI="https://github.com/Frixxie/uit_calendar_util"
@@ -23,6 +23,10 @@ IUSE=""
 
 RDEPEND=">=dev-python/requests-2.25.1-r1"
 
-src_prepare() {
-	distutils-r1_src_prepare
+src_unpack(){
+	git-r3_src_unpack
+}
+
+python_install(){
+	esetup.py install_lib
 }
