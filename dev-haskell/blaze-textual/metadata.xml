@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="project">
+		<email>haskell@gentoo.org</email>
+		<name>Gentoo Haskell</name>
+	</maintainer>
+	<use>
+		<flag name="developer">operate in developer mode</flag>
+		<flag name="integer-simple">use integer-simple instead of integer-gmp</flag>
+		<flag name="native">use slow native code for double conversion</flag>
+	</use>
+</pkgmetadata>
