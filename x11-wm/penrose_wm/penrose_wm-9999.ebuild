@@ -30,7 +30,7 @@ DEPEND="${RDEPEND}
 	>=x11-libs/pango-1.48.10-r1"
 RDEPEND="
 	>=x11-misc/polybar-3.5.7
-	>=x11-misc/xmodmap-1.0.10"
+	>=x11-apps/xmodmap-1.0.10"
 
 src_unpack() {
 	git-r3_src_unpack
